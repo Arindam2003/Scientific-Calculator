@@ -45,6 +45,7 @@
     color: black;
     cursor: pointer;
     margin: 5px;
+    transition-duration: 0.7s;
 }
 form .display{
     display: flex;
@@ -68,8 +69,8 @@ form input:hover {
 .calculator form h1{
     color: rgb(253, 253, 253);
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
-    position: absolute;
-    top: 70px;
-    left: 330px;
+    font-size: 16px;
+    position: relative;
+    top: -16px;
+    left: 240px;
 }
