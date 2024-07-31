@@ -21,7 +21,10 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    /* box-shadow: -10px -10px 10px rgba(236, 56, 56, 0.4), 7px 7px 5px rgba(0,0,0,0.2); */
+    box-shadow: 7px 7px 15px black;
+    background-image: url("bg-image.jfif");
+    background-size: cover;
+    opacity: 1;
 }
 
 .calculator form input{
@@ -39,7 +42,7 @@
     background: transparent;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
     cursor: pointer;
     margin: 5px;
 }
@@ -59,6 +62,14 @@ form input.equal{
     /* background-color: red; */
 }
 form input:hover {
-    background-color: #cf4444;
-    color: rgb(5, 179, 179);
+    background-color: #1f0331;
+    color: rgb(10, 180, 180);
+}
+.calculator form h1{
+    color: rgb(253, 253, 253);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 70px;
+    left: 330px;
 }
